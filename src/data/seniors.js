@@ -9,11 +9,11 @@
 //  ⚠ PLACEHOLDER DATA: replace names, captions and stickerIds with the real ones.
 // ─────────────────────────────────────────────────────────────
 export const seniors = [
-  { id: 'senior-1', name: 'SENIOR ONE',   caption: 'Placeholder caption. Edit it in src/data/seniors.js', stickerId: 'sticker-01', revealStyle: 'file',      sound: '', message: '' },
-  { id: 'senior-2', name: 'SENIOR TWO',   caption: 'Placeholder caption. Edit it in src/data/seniors.js', stickerId: 'sticker-02', revealStyle: 'polaroid',  sound: '', message: '' },
-  { id: 'senior-3', name: 'SENIOR THREE', caption: 'Placeholder caption. Edit it in src/data/seniors.js', stickerId: 'sticker-03', revealStyle: 'stamp',     sound: '', message: '' },
-  { id: 'senior-4', name: 'SENIOR FOUR',  caption: 'Placeholder caption. Edit it in src/data/seniors.js', stickerId: 'sticker-04', revealStyle: 'glitch',    sound: '', message: '' },
-  { id: 'senior-5', name: 'SENIOR FIVE',  caption: 'Placeholder caption. Edit it in src/data/seniors.js', stickerId: 'sticker-05', revealStyle: 'scrapbook', sound: '', message: '' },
+  { id: 'senior-1', name: 'Asvarden', caption: 'a.k.a Harshavardden', stickerId: 'sticker-44', revealStyle: 'file', sound: '', message: '' },
+  { id: 'senior-2', name: 'Dhanvanth', caption: 'a.k.a Cyber anna', stickerId: 'sticker-10', revealStyle: 'polaroid', sound: '', message: '' },
+  { id: 'senior-3', name: 'Satvika Gada', caption: 'a.k.a Dhurandhar akka', stickerId: 'sticker-40', revealStyle: 'stamp', sound: '', message: '' },
+  { id: 'senior-4', name: 'Shivashaila Shrii', caption: 'a.k.a Networks akka', stickerId: 'sticker-45', revealStyle: 'glitch', sound: '', message: '' },
+  { id: 'senior-5', name: 'Someshwar', caption: 'a.k.a OpCon anna', stickerId: 'sticker-04', revealStyle: 'scrapbook', sound: '', message: '' },
 ];
 
 export const getSenior = (id) => seniors.find((s) => s.id === id) || null;

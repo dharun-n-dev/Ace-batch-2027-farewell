@@ -32,7 +32,7 @@ export const site = {
     },
     vault: {
       title: 'THE ULTIMATE STICKER VAULT',
-      text: 'Five legends. Countless reactions. An unreasonable amount of chaos.',
+      text: 'Five people. Countless reactions. An unreasonable amount of chaos.',
       button: 'OPEN STICKER VAULT',
     },
   },

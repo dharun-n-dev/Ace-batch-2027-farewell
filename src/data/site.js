@@ -44,7 +44,7 @@ export const site = {
     paragraph:
       'Long after the challenges are forgotten and the events become stories, the memories, laughter, and friendships you left behind will remain. This little archive is our way of saying thank you.',
     // Main group photo: a filename from src/assets/photos (leave '' for none)
-    photo: 'photo-12.jpg',
+    photo: 'photo-27.jpg',
     photoCaption: '',
     closingTop: 'MISSION COMPLETE',
     closingBottom: 'THE MEMORIES STAY.',

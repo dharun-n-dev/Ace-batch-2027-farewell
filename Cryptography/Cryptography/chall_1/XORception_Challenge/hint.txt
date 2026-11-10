@@ -1,0 +1,6 @@
+Hint:
+
+1) XOR is its own inverse. 
+	a ^ b = c
+	a ^ c = b
+2) Try XOR-ing the encrypted hex with "flag starting format" to get started. 

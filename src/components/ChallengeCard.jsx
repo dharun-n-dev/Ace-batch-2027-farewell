@@ -16,10 +16,12 @@ export default function ChallengeCard({ challenge, solved, locked, requiresTitle
         </span>
       </header>
       <h3 className="cf-title">{challenge.title}</h3>
-      <p className="cf-meta">
-        <span className="chip">{challenge.category}</span>
-        <span className="chip chip-ghost">{challenge.difficulty}</span>
-      </p>
+      {challenge.showMeta !== false && (
+        <p className="cf-meta">
+          <span className="chip">{challenge.category}</span>
+          <span className="chip chip-ghost">{challenge.difficulty}</span>
+        </p>
+      )}
       <p className="cf-desc">{challenge.description.split('\n')[0]}</p>
       {sticker && <SafeImg className="cf-sticker" src={sticker.src} alt="" loading="lazy" />}
       <footer className="cf-foot">

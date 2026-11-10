@@ -143,10 +143,12 @@ main { outline: none; display: block; }
 /* ───────────── challenge page ───────────── */
 .challenge { padding: 40px clamp(22px, 5vw, 48px) 38px; }
 .challenge .h1 { margin: 6px 0 14px; }
+.prose { font-family: var(--font-sans); color: var(--brown); }
 .prose p { max-width: 62ch; }
 .files, .hints { margin: 24px 0; padding: 16px 18px; background: var(--cream); border: 1px solid var(--line-soft); }
 .files ul { margin: 0; padding-left: 1.1rem; }
 .hint { margin: 0 0 .6rem; } .hint .mono { color: var(--gold-deep); margin-right: 8px; font-size: .8rem; }
+.hint-image { display: block; width: min(100%, 520px); margin-top: 10px; border: 1px solid var(--line); }
 .solved-banner { margin-top: 26px; padding: 20px; background: var(--cream); border: 1px solid var(--gold); }
 .solved-banner p { display: flex; align-items: center; gap: 8px; color: var(--ok); }
 

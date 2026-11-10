@@ -44,7 +44,12 @@ export default function ChallengePage({ id }) {
         <header>
           <p className="mono cf-no">Case file {String(challenge.number).padStart(2, '0')}</p>
           <h1 className="h1">{challenge.title}</h1>
-          <p className="cf-meta"><span className="chip">{challenge.category}</span><span className="chip chip-ghost">{challenge.difficulty}</span></p>
+          {challenge.showMeta !== false && (
+            <p className="cf-meta">
+              <span className="chip">{challenge.category}</span>
+              <span className="chip chip-ghost">{challenge.difficulty}</span>
+            </p>
+          )}
         </header>
 
         <div className="prose">

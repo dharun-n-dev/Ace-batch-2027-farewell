@@ -1,0 +1,22 @@
+Challenge Name: XORception
+
+Description:
+I've encrypted the flag using my own secret key.
+It’s short, it’s clever, and no—you're not going to guess it easily.
+
+But maybe you don’t need to guess at all...
+
+See, the XOR operation is funny like that. 
+It's reversible, and if you already know part of the original message, you might just unravel the rest.
+The format of the flag? Well, it always starts with CnC{ ,doesn't it?
+
+Maybe that familiar prefix is your ticket in.
+Try dissecting the encrypted message using that hint—who knows, you might just extract a piece of the key itself.
+And if you're smart enough to figure out the rest, the full flag will reveal itself effortlessly.
+
+Here’s the ciphertext I left behind. Let’s see what you can do with it:
+30012f0e00015e1d2c06592a12580e5d0e
+
+Flag format: CnC{...}
+
+Happy hacking :)

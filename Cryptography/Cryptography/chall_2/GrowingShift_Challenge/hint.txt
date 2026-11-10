@@ -1,0 +1,4 @@
+Hint:
+
+Try reversing the encryption logic to decrypt the flag 
+

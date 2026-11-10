@@ -11,8 +11,8 @@ export const site = {
 
   // Flag format. Used for the input placeholder and the "does this look like a flag?" check.
   // If a challenge uses a different prefix, set `flagPrefix` on that challenge (or null to skip the check).
-  flagFormat: 'Ac3{example_flag}',
-  flagPrefix: 'Ac3',
+  flagFormat: 'CnC{example_flag}',
+  flagPrefix: 'CnC',
 
   // localStorage key (bump the version suffix to wipe everyone's saved progress)
   storageKey: 'operation-farewell:v1',

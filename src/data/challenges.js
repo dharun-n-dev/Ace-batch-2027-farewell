@@ -20,7 +20,49 @@ const demo = (n, word) =>
   `Placeholder challenge. The original challenge details will be added here.\n\nDEMO FLAG FOR TESTING: Ac3{demo_${word}}`;
 
 export const challenges = [
-  { id: 'ch-01', number: 1, title: 'CHALLENGE 01', category: 'TBD', difficulty: 'TBD', description: demo(1, 'one'),   files: [], hints: ['Placeholder hint. Replace it in src/data/challenges.js.'], seniorId: 'senior-1', flagHash: 'cfe9720daf22dc7b72f7c55d31fccce001a1e49ce637e6a2c4ef601cec2c1c6c', caseSensitive: true },
+  {
+    id: 'ch-01',
+    number: 1,
+    title: 'CHALLENGE 01',
+    category: 'TBD',
+    difficulty: 'TBD',
+    showMeta: false,
+    description: `🔐 Emoji Trail
+
+You're given with a trail of emojis that hide something valuable...
+Emoji Sequence:
+😅 😃 😎 😀 😆 😀 😄 😁 😀 😁 😋 😂 😉 😁 😊
+
+Each emoji represents a hexadecimal value.
+
+😀 = 00
+😁 = 07
+😂 = 08
+😃 = 0a
+😄 = 0c
+😅 = 0e
+😆 = 1f
+😉 = 2e
+😊 = 2f
+😋 = 5a
+😎 = 5d
+
+Using the provided legend, convert this emoji sequence into a hex string.
+
+Something about the pattern feels deliberate — like there's more to discover.
+Perhaps the image you've been given isn’t just decoration…
+it might contain the very key needed to unravel the path.
+
+Sometimes, it might be XOR-ing the hex string with the key uncover what's truly hidden.
+
+Flag format: CnC{...}`,
+    files: [],
+    hints: [{ image: 'challenge-files/ch-01/emoji_hint_image.png', alt: 'Emoji trail hint' }],
+    seniorId: 'senior-1',
+    flagHash: 'c9d9f354e3439717face1ff1cd43208c7a20749d15bf9ac967287cf485e997b5',
+    flagPrefix: 'CnC',
+    caseSensitive: true,
+  },
   { id: 'ch-02', number: 2, title: 'CHALLENGE 02', category: 'TBD', difficulty: 'TBD', description: demo(2, 'two'),   files: [], hints: [], seniorId: 'senior-2', flagHash: '4c5dbafef2ea49fc9d6b024f0fb356523bc8ccbc529c410d7af57f04d15c5813', caseSensitive: true },
   { id: 'ch-03', number: 3, title: 'CHALLENGE 03', category: 'TBD', difficulty: 'TBD', description: demo(3, 'three'), files: [], hints: [], seniorId: 'senior-3', flagHash: '7ebd934996a47aef2b04d906866a4568e28bfe9c201dff03ad5ce136b7e90da4', caseSensitive: true },
   { id: 'ch-04', number: 4, title: 'CHALLENGE 04', category: 'TBD', difficulty: 'TBD', description: demo(4, 'four'),  files: [], hints: [], seniorId: 'senior-4', flagHash: 'c076a6b4e3fa27118048ec7b9abc38fd52e657e28adf834e624e11859c1361d2', caseSensitive: true },

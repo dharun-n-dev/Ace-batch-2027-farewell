@@ -1,0 +1,10 @@
+Challenge Name: Growing Shift
+
+Description:
+Each character of the flag is  encrypted by shifting based on its position (i+1). 
+Characters wrap around (A-Z, a-z, 0-9). 
+ {} and _ are not changed.
+The output is hex-encoded. 
+Can you reverse this pattern and recover the original message?
+
+Flag format: CnC{...}

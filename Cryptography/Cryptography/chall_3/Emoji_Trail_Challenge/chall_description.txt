@@ -1,0 +1,19 @@
+🔐 Challenge Name: Emoji Trail
+
+Description:
+
+You're given with a trail of emojis that hide something valuable...
+ Emoji Sequence:
+😅 😃 😎 😀 😆 😀 😄 😁 😀 😁 😋 😂 😉 😁 😊
+
+Each emoji represents a hexadecimal value. 
+Using the provided legend, convert this emoji sequence into a hex string.
+
+Something about the pattern feels deliberate — like there's more to discover.
+Perhaps the image you've been given isn’t just decoration… 
+it might contain the very *key* needed to unravel the path.
+
+Sometimes, it might be XOR-ing the hex string with the key uncover what's truly hidden.
+
+
+Flag format: CnC{...}
